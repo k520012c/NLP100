@@ -3,5 +3,5 @@ b = "タクシー"
 ans = ""
 
 for x,y in zip(a,b):
-   ans += x + y
+    ans += x + y
 print(ans)

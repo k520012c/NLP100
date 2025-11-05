@@ -3,5 +3,5 @@ text = a.replace(".", "").replace(",", "")
 ans = []
 
 for word in text.split():
-  ans.append(len(word))
+    ans.append(len(word))
 print(ans)

@@ -3,11 +3,11 @@ text = a.replace(".","").split()
 ans = {}
 
 for i,word in enumerate(text, 0):
-  if i in [1, 5, 6, 7, 8, 9, 15, 16, 19]:
-    x = word[0]
-    ans[x] = i+1
+    if i in [1, 5, 6, 7, 8, 9, 15, 16, 19]:
+        x = word[0]
+        ans[x] = i+1
 
-  else:
-    x = word[:2]
-    ans[x] = i+1
+    else:
+        x = word[:2]
+        ans[x] = i+1
 print(ans)

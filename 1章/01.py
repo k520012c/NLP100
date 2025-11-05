@@ -1,7 +1,6 @@
-a = "パトカー"
-b = "タクシー"
+a = "パタトクカシーー"
 ans = ""
 
-for x,y in zip(a,b):
-    ans += x + y
+for x in range(0,len(a)-1,2):
+    ans += a[x+1]
 print(ans)
